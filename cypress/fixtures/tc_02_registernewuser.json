@@ -1,0 +1,39 @@
+[
+{
+  "gender": "M",
+  "firstname": "testfirst",
+  "lastname": "testlast",
+  "dateofbirth" : "22",
+  "monthofbirth" : "June",
+  "yearofbirth" : "1990",
+  "email" : "@gmail.com",
+  "companyname" : "testcomp",
+  "pwd" : "test@123",
+  "confpwd" : "test@123"
+
+},
+{
+  "gender": "F",
+  "firstname": "testsecond",
+  "lastname": "testsecond",
+  "dateofbirth" : "23",
+  "monthofbirth" : "July",
+  "yearofbirth" : "1993",
+  "email" : "@gmail.com",
+  "companyname" : "testcomp",
+  "pwd" : "test1@123",
+  "confpwd" : "test1@123"
+},
+{
+  "gender": "M",
+  "firstname": "testfirst",
+  "lastname": "testlast",
+  "dateofbirth" : "27",
+  "monthofbirth" : "August",
+  "yearofbirth" : "4",
+  "email" : "@gmail.com",
+  "companyname" : "testcomp",
+  "pwd" : "test2@123",
+  "confpwd" : "test2@123"
+}
+]
