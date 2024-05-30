@@ -20,55 +20,55 @@
 
    
     inputFirstName(fname){
-          return cy.get(this.first_name).type(fname)
+         cy.get(this.first_name).type(fname)
     }
 
     inputLastName(lname){
-        return cy.get(this.last_name).type(lname)
+         cy.get(this.last_name).type(lname)
     }
 
     inputEmail(email){
-        return cy.get(this.e_mail).type(email)
+      cy.get(this.e_mail).type(email)
     }
 
     inputDateOfBirth(day){
-        return cy.get(this.date_day).type(day)
+     cy.get(this.date_day).type(day)
     }
 
     inputMonthOfBirth(month){
-        return cy.get(this.date_month).type(month)
+        cy.get(this.date_month).type(month)
     }
 
     inputYearOfBirth(year){
-        return cy.get(this.date_year).type(year)
+        cy.get(this.date_year).type(year)
     }
 
     inputCompname(companyname){
-        return cy.get(this.company_name).type(companyname)
+        cy.get(this.company_name).type(companyname)
     }
 
     inputPwd(pwd){
-        return cy.get(this.password).type(pwd)
+         cy.get(this.password).type(pwd)
     }
 
     inputConfPwd(confirmpwd){
-        return cy.get(this.confirm_password).type(confirmpwd)
+     cy.get(this.confirm_password).type(confirmpwd)
     }
 
     clickBtnRegister(){
-        return cy.get(this.btn_register).click()
+    cy.get(this.btn_register).click()
     }
 
     clickLnkRegister(){
-        return cy.get(this.lnk_register).click()
+         cy.get(this.lnk_register).click()
     }
 
     selectRadioBtnGender(genderval){
-        return cy.get(this.gender).check(genderval)
+         cy.get(this.gender).check(genderval)
     }
 
     selectChkboxNewsletter(newsletter){
-        return cy.get(this.newsletter).select(newsletter)
+        cy.get(this.newsletter).select(newsletter)
     }
 
 

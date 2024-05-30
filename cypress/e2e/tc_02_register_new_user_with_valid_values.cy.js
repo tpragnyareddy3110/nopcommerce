@@ -29,7 +29,7 @@ describe('register a new user with valid values', () => {
                     expect($text).to.contain('Your registration completed')
                 })
                 cy.get('.ico-logout').click()
-        })
+           })
     })
 })
 
