@@ -1,4 +1,4 @@
-import { Launchpage } from "../pages/launch"
+import { Launchpage } from "../pages/Launch"
 
 describe('give the poll option without registering',()=>{
 
